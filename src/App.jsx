@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./home.jsx";
+import home from "./home.jsx";
 import EightDConverter from "./EightDConverter";
 
 export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<home />} />
         <Route path="/convert" element={<EightDConverter />} />
       </Routes>
     </Router>
