@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import home from "./Home.jsx";
+import Home from "./home.jsx";
 import EightDConverter from "./EightDConverter";
 
 export default function App() {
